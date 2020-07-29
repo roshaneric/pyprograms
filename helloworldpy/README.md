@@ -1,0 +1,1 @@
+Prints message with date/time
