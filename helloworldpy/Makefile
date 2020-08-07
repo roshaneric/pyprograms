@@ -5,7 +5,7 @@ build-image:
 	docker build -t hellopy:roshanf .
 
 run-image:
-	docker run hellopy:roshanf
+	docker run --env USERNAME=roshanf hellopy
 
 list-containers:
 	docker ps -a
